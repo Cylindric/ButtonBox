@@ -1,0 +1,6 @@
+Info/*
+
+Firmware/*.ino.d
+
+Schematic/*.bak
+Schematic/*-cache.lib
