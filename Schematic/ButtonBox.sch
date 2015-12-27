@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:components
-LIBS:cxomponents
+LIBS:ButtonBox-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -50,7 +50,7 @@ U 1 1 567B326D
 P 4450 6050
 F 0 "P1" H 4450 6350 50  0000 C CNN
 F 1 "JOY_THRUST" V 4550 6050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05" H 4450 6050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 4450 6050 50  0001 C CNN
 F 3 "" H 4450 6050 50  0000 C CNN
 	1    4450 6050
 	1    0    0    -1  
@@ -89,7 +89,7 @@ U 1 1 567B521F
 P 5850 6025
 F 0 "P2" H 5850 6325 50  0000 C CNN
 F 1 "JOY_NAVI" V 5950 6025 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05" H 5850 6025 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 5850 6025 50  0001 C CNN
 F 3 "" H 5850 6025 50  0000 C CNN
 	1    5850 6025
 	1    0    0    -1  
@@ -158,7 +158,7 @@ U 1 1 567B4DA5
 P 9400 1325
 F 0 "P3" H 9400 1475 50  0000 C CNN
 F 1 "SW_FSHIFT" V 9500 1325 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 9400 1325 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 9400 1325 50  0001 C CNN
 F 3 "" H 9400 1325 50  0000 C CNN
 	1    9400 1325
 	1    0    0    -1  
@@ -180,7 +180,7 @@ U 1 1 567B53D5
 P 9850 1325
 F 0 "P4" H 9850 1475 50  0000 C CNN
 F 1 "SW_SILENT" V 9950 1325 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 9850 1325 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 9850 1325 50  0001 C CNN
 F 3 "" H 9850 1325 50  0000 C CNN
 	1    9850 1325
 	1    0    0    -1  
@@ -191,7 +191,7 @@ U 1 1 567B544F
 P 10300 1325
 F 0 "P5" H 10300 1475 50  0000 C CNN
 F 1 "SW_DUMP" V 10400 1325 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 10300 1325 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10300 1325 50  0001 C CNN
 F 3 "" H 10300 1325 50  0000 C CNN
 	1    10300 1325
 	1    0    0    -1  
@@ -202,7 +202,7 @@ U 1 1 567B549C
 P 10750 1325
 F 0 "P6" H 10750 1475 50  0000 C CNN
 F 1 "SW_DEPLOY" V 10850 1325 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 10750 1325 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10750 1325 50  0001 C CNN
 F 3 "" H 10750 1325 50  0000 C CNN
 	1    10750 1325
 	1    0    0    -1  
@@ -515,7 +515,7 @@ U 1 1 567CED3B
 P 9400 3150
 F 0 "P7" H 9400 3300 50  0000 C CNN
 F 1 "SW_LIGHTS" V 9500 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 9400 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 9400 3150 50  0001 C CNN
 F 3 "" H 9400 3150 50  0000 C CNN
 	1    9400 3150
 	1    0    0    -1  
@@ -526,7 +526,7 @@ U 1 1 567CED47
 P 9850 3150
 F 0 "P8" H 9850 3300 50  0000 C CNN
 F 1 "SW_LANDING" V 9950 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 9850 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 9850 3150 50  0001 C CNN
 F 3 "" H 9850 3150 50  0000 C CNN
 	1    9850 3150
 	1    0    0    -1  
@@ -537,7 +537,7 @@ U 1 1 567CED4D
 P 10300 3150
 F 0 "P9" H 10300 3300 50  0000 C CNN
 F 1 "SW_FUEL" V 10400 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 10300 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10300 3150 50  0001 C CNN
 F 3 "" H 10300 3150 50  0000 C CNN
 	1    10300 3150
 	1    0    0    -1  
@@ -548,7 +548,7 @@ U 1 1 567CED53
 P 10750 3150
 F 0 "P10" H 10750 3300 50  0000 C CNN
 F 1 "SW_CARGO" V 10850 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 10750 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10750 3150 50  0001 C CNN
 F 3 "" H 10750 3150 50  0000 C CNN
 	1    10750 3150
 	1    0    0    -1  

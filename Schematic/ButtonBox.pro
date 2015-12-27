@@ -1,4 +1,4 @@
-update=23/12/2015 23:30:45
+update=27/12/2015 19:44:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,4 +59,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/Mark/Documents/Dev/KicadComponents.pretty/components
-LibName31=C:/Users/Mark/Documents/Dev/KicadComponents.pretty/cxomponents
