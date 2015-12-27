@@ -3,4 +3,8 @@ Info/*
 Firmware/*.ino.d
 
 Schematic/*.bak
+Schematic/*-bak
 Schematic/*-cache.lib
+
+Schematic/Gerbers/*.zip
+Schematic/Gerbers/*.exe
